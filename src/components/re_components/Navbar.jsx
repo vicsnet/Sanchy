@@ -1,33 +1,33 @@
-import React, {useState} from 'react'
-import Logo from '../assets/SanchyLogo.png'
-import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
-import Button from './Button'
- 
+import React, { useState } from "react";
+import Logo from "../assets/SanchyLogo.png";
+import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import Button from "./Button";
+
 function Navbar() {
-//  const value = "Contact Us";
-    const [nav, setNav] = useState(false)
-    
-    const handleNav = () => {
-      setNav(!nav);
-    }
+  //  const value = "Contact Us";
+  const [nav, setNav] = useState(false);
+
+  const handleNav = () => {
+    setNav(!nav);
+  };
 
   return (
     <div className=" justify-between items-center  mx-auto h-20 bg-[background: rgba(255, 255, 255, 1)] w-[100%]">
       <div className="flex justify-between mx-auto px-4 w-[90%] h-20">
         <div>
-          <img src={Logo} alt="/" className=" w-[40%] h-auto p-4" />
+          <img
+            src={Logo}
+            alt="/"
+            className=" w-[40%] h-auto p-4 cursor-pointer"
+          />
         </div>
 
-        <ul className=" hidden md:flex">
-          <li className="p-8 ">Home</li>
-          <li className="p-8">About Us</li>
+        <ul className=" hidden cursor-pointer md:flex">
+          <li className="p-8 hover:text-[#001EDC]">Home</li>
+          <li className="p-8 hover:text-[#001EDC]">About Us</li>
           <li className="p-4">
-           
             {/* <Button  {`$ {value}`} /> */}
-            <Button>
-            {`$ {learn}`} 
-              
-            </Button>
+            <Button>{`$ {learn}`}</Button>
           </li>
         </ul>
 
@@ -55,4 +55,4 @@ function Navbar() {
   );
 }
 
-export default Navbar
+export default Navbar;
