@@ -1,22 +1,40 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap'); */
 
+/* @import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;300;400;500;600;700;800;900&display=swap"); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-
-.org-im{
-    background-image: url(../src/components/assets/Rectangle22678.png);
-    background-repeat: no-repeat;
-    background-size: 100% auto;
-    /* background: rgba(0, 0, 0, 0.8); */
-
-    
+.org-im {
+  background-image: url(../src/components/assets/Rectangle22678.png);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  /* background: rgba(0, 0, 0, 0.8); */
 }
-.org-text{
-    color: rgba(255, 255, 255, 0.8);
+.org-text {
+  color: rgba(255, 255, 255, 0.8);
 }
-.foot{
- background: #010007;
+.foot {
+  background: #010007;
+}
+.hero-bg {
+  background-image: url("../src/components/assets/Maps.png");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  background-position: top left;
+  /* background: #F6F9FF; */
+  /* opacity: 10%; */
+}
 
+.foot-col{
+
+  color: rgba(236, 236, 236, 0.8);
+}
+  
+.foot-border{
+  border-right: 1px solid #717070;
+}
+.foot-bt-bd{
+  border-bottom: 1px solid #717070;;
 }

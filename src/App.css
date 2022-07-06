@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Titillium+Web:ital,wght@0,200;0,300;0,600;0,700;1,400&display=swap");
+
+*,
+*::after,
+*::before {
+ 
+    font-family: 'DM Sans', sans-serif;
+  
+      /* max-width: 100%; */
+    /* display: flex; */
+   
+}
+.fontFam{
+    font-family: 'Dm Sans';
+}
+.Fam{
+    font-family: 'millik';
+}
