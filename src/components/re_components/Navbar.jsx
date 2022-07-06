@@ -2,12 +2,13 @@ import React, {useState} from 'react'
 import Logo from '../assets/SanchyLogo.png'
 import { AiOutlineClose, AiOutlineMenu } from 'react-icons/ai'
 import Button from './Button'
-
+ 
 function Navbar() {
+//  const value = "Contact Us";
     const [nav, setNav] = useState(false)
     
     const handleNav = () => {
-        setNav(!nav);
+      setNav(!nav);
     }
 
   return (
@@ -21,7 +22,12 @@ function Navbar() {
           <li className="p-8 ">Home</li>
           <li className="p-8">About Us</li>
           <li className="p-4">
-            <Button />
+           
+            {/* <Button  {`$ {value}`} /> */}
+            <Button>
+            {`$ {learn}`} 
+              
+            </Button>
           </li>
         </ul>
 

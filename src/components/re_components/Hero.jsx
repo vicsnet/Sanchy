@@ -10,7 +10,6 @@ const span =
 // document.getElementById("Texts").innerHTML = codeBlock;
 const TEXTS = [
   "Re-imagine innovation with forward thinking solutions",
-
   " A company that creates Companies ",
   " What does your organization need soluton for?",
 ];
@@ -27,10 +26,11 @@ function Hero() {
   }, []);
 
   return (
-    <div className="w-[100%] h-[700px]  hero-bg ">
+    <div className="w-[100%] h-auto  hero-bg pb-[2rem]">
       <div className="w-[90%] mx-auto flex pt-96 ">
         <div className="w-[60%]">
-          <h1 className="w-[80%] h-auto text-[64px] leading-[61px]  Fam">
+          
+          <h1 className="w-[80%] h-auto text-[64px] leading-[61px]  Fam font-black">
             <TextTransition springConfig={presets.wobbly}>
               {TEXTS[index % TEXTS.length]}
               {/* {this.state.text} */}
@@ -47,6 +47,7 @@ function Hero() {
           <img src={Group3} alt="/" className="w-[15%] h-auto mt-10 ml-24" />
         </div>
       </div>
+
     </div>
   );
 }
