@@ -9,11 +9,14 @@ import Hero from "./components/re_components/Hero";
 import Navbar from "./components/re_components/Navbar";
 import Org from "./components/re_components/Org";
 import What from "./components/re_components/What";
+import Nav from "./components/re_components/Nav";
 
 function App() {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
+      
+      <Nav/>
       <Hero />
       <About />
       <Core />

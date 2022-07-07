@@ -51,3 +51,9 @@
 .foot-bt-bd{
   border-bottom: 1px solid #717070;;
 }
+.menu-bt{
+  border-bottom: 1px solid rgba(6, 10, 35, 0.3);
+}
+.menu-bb{
+  border-top: 1px solid rgba(6, 10, 35, 0.3);
+}

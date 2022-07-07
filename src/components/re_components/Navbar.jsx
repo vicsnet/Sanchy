@@ -32,7 +32,7 @@ function Navbar() {
         </ul>
 
         <div onClick={handleNav} className="block md:hidden">
-          {nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
+          {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20} />}
         </div>
 
         <div
