@@ -30,7 +30,7 @@ function Hero() {
         <div className="w-[60%] flex flex-col">
           
           <h1 className="w-[80%] h-auto text-[64px] leading-[61px] font-black">
-            <TextTransition springConfig={presets.wobbly}>
+            <TextTransition springConfig={presets.slow}>
               {TEXTS[index % TEXTS.length]}
               {/* {this.state.text} */}
             </TextTransition>
