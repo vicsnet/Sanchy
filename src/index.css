@@ -8,7 +8,6 @@
 
 .org-im {
   background-image: url(../src/components/assets/Rectangle22678.png);
-;
   background-repeat: no-repeat;
   background-size: 100% auto;
    /* filter: blur(2px); */
@@ -22,9 +21,11 @@
 }
 .hero-bg {
   background-image: url("../src/components/assets/Maps.png");
+  background-color: #F6F9FF;
   background-repeat: no-repeat;
   background-size: 100% auto;
   background-position: top left;
+  height: 1000px;
   /* background: #F6F9FF; */
   /* opacity: 10%; */
 }
@@ -56,4 +57,9 @@
 }
 .menu-bb{
   border-top: 1px solid rgba(6, 10, 35, 0.3);
+}
+.what-bg{
+  background-image: url('../src/components/assets/Group\ 8377.png');
+  background-repeat: no-repeat;
+  background-size: 80% auto;
 }

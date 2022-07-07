@@ -10,18 +10,22 @@ import Navbar from "./components/re_components/Navbar";
 import Org from "./components/re_components/Org";
 import What from "./components/re_components/What";
 import Nav from "./components/re_components/Nav";
+import Text from "./components/re_components/Text";
 
 function App() {
   return (
     <div>
-      {/* <Navbar /> */}
-      
-      <Nav/>
+      <Nav />
       <Hero />
-      <About />
+      {/* donee  */}
+      {/* <Text /> */}
+      <About /> 
+      {/* done */}
       <Core />
-      <What />
-      <Approach />
+      {/* almost */}
+      <What /> 
+      {/* done */}
+      <Approach /> 
       <Org />
       <Footer />
     </div>

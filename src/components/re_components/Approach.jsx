@@ -4,16 +4,16 @@ function Approach() {
   return (
     <div className="w-[100%] bg-[#F6F9FF] h-auto pb-56 pt-32 approach-bg">
       <div className="w-[90%] mx-auto">
-        <h1 className="w-[100%] text-[60px] h-[58px] text-[#000735] leading-8 font-black">
+        <h1 className=" text-[24px] w-[100%] lg:text-[60px] h-[58px] text-[#000735] leading-8 font-black">
           Our Approach
         </h1>
-        <p className="w-[60%] mt-16 text-[18px] leading-8 pb-16 ">
+        <p className="lg:w-[60%] lg:mt-16 text-[18px] leading-8 lg:pb-16 ">
           At Sanchy Kreations, we embrace the power of change to create
           long-lasting value in every direction for the individuals and business
           platforms across the tech communities.
         </p>
-        <div className="flex gap-x-6">
-          <div className="w-[33%] h-[454px] bg-[#FFFFFF] approach-shadow">
+        <div className="lg:flex lg:gap-x-6">
+          <div className="lg:w-[33%] h-auto bg-[#FFFFFF] approach-shadow">
             <h3 className="w-[100%] text-[18px] text-center text-[#001EDC] mt-[71px] mb-8">
               Technologically driven solutions
             </h3>
@@ -26,7 +26,7 @@ function Approach() {
               solutions in every direction.
             </p>
           </div>
-          <div className="w-[33%] h-[454px] bg-[#FFFFFF] approach-shadow">
+          <div className="lg:w-[33%] h-auto bg-[#FFFFFF] approach-shadow">
             <h3 className="w-[100%] text-[18px] text-center text-[#001EDC] mt-[71px] mb-8">
               Innovation birthed in creativity
             </h3>
@@ -38,7 +38,7 @@ function Approach() {
               advantage in providing services to our users and partners
             </p>
           </div>
-          <div className="w-[33%] h-[454px] bg-[#FFFFFF] approach-shadow">
+          <div className="lg:w-[33%] h-auto bg-[#FFFFFF] approach-shadow">
             <h3 className="w-[100%] text-[18px] text-center text-[#001EDC] mt-[71px] mb-8">
               Proven strategy
             </h3>
