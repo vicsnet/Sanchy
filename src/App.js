@@ -11,11 +11,13 @@ import Org from "./components/re_components/Org";
 import What from "./components/re_components/What";
 import Nav from "./components/re_components/Nav";
 import Text from "./components/re_components/Text";
+import { TypeAnimation } from "./components/re_components/TypeAnimation";
 
 function App() {
   return (
     <div>
       <Nav />
+      {/* <TypeAnimation/> */}
       <Hero />
       {/* donee  */}
       {/* <Text /> */}
