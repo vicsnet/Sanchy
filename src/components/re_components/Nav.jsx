@@ -11,8 +11,6 @@ function Nav() {
   const handleClick = () => setNav(!nav);
   const Element = Link;
 
-  
-
   return (
     <div className=" justify-between fixed z-30 items-center  mx-auto h-20 bg-[#FFFFFF] w-[100%]">
       <div className="flex justify-between mx-auto px-4 w-[90%] h-20">
@@ -30,13 +28,7 @@ function Nav() {
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
             <li className="p-8 hover:text-[#001EDC]">Home</li>
           </Link>
-          <Link
-            to="about"
-            spy={true}
-            smooth={true}
-            offset={50}
-            duration={500}
-          >
+          <Link to="/" onClick={() => window.scrollTo(800, 800)}>
             <li className="p-8 hover:text-[#001EDC]">About Us</li>
           </Link>
 
