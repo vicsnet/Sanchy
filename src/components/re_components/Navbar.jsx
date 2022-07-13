@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import {Link} from 'react-router-dom'
 import Logo from "../assets/SanchyLogo.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Button from "./Button";
@@ -15,20 +16,26 @@ function Navbar() {
     <div className=" justify-between items-center  mx-auto h-20 bg-[background: rgba(255, 255, 255, 1)] w-[100%]">
       <div className="flex justify-between mx-auto px-4 w-[90%] h-20">
         <div>
-          <img
-            src={Logo}
-            alt="/"
-            className=" w-[40%] h-auto p-4 cursor-pointer"
-          />
+          <Link to="/">
+            <img
+              src={Logo}
+              alt="/"
+              className=" w-[40%] h-auto p-4 cursor-pointer"
+            />
+          </Link>
         </div>
 
         <ul className=" hidden cursor-pointer md:flex">
-          <li className="p-8 hover:text-[#001EDC]">Home</li>
+          <Link to="/">
+            <li className="p-8 hover:text-[#001EDC]">Home</li>
+          </Link>
           <li className="p-8 hover:text-[#001EDC]">About Us</li>
-          <li className="p-4">
-            {/* <Button  {`$ {value}`} /> */}
-            <Button>{`$ {learn}`}</Button>
-          </li>
+          <Link to="contact">
+            <li className="p-4">
+              {/* <Button  {`$ {value}`} /> */}
+              <Button>{`$ {learn}`}</Button>
+            </li>
+          </Link>
         </ul>
 
         <div onClick={handleNav} className="block md:hidden">

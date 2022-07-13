@@ -10,7 +10,7 @@ import insta from "../assets/Group 8291insta.png";
 
 function Footer() {
   return (
-    <div className="w-[100%] bg-[#060A23] md:bg-[#010007]  h-auto text-white mt-[-4rem] flex flex-col">
+    <div className="  w-[100%]  bg-[#060A23] md:bg-[#010007]  h-auto text-white  flex flex-col">
       <div className="foot-bt-bd">
         <div className="sm:flex  lg:flex w-[90%] mx-auto gap-6 pt-20 ">
           <div className="md:w-[60%] md:flex md:gap-x-3 sm:border-r-2 border-[#717070] ">

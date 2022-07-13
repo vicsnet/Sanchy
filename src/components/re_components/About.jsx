@@ -3,7 +3,7 @@ import About21 from "../assets/21.png";
 import Button from "./Button";
 function About() {
   return (
-    <div className="w-[100%] h-[1081px] ">
+    <div className="w-[100%] h-[1081px] " id="about">
       <div className="w-[90%] lg:flex lg:space-between mx-auto  mt-[10%] mb-auto ">
         <div className=" w-[50%] h-auto">
           <img
@@ -49,7 +49,7 @@ function About() {
             </p>
             <div className="my-[66px] lg:my-[88px] ">
               <button className="w-[154px] h-[60px] bg-[#001EDC] text-[#FFFFFF] text-[13px] text-center rounded hover:bg-[#F6F9FF] hover:text-[#001EDC]">
-                learn more 
+                learn more
               </button>
             </div>
           </div>

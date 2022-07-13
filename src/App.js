@@ -1,34 +1,26 @@
 import "./App.css";
 import React from "react";
-import About from "./components/re_components/About";
-import Approach from "./components/re_components/Approach";
-import Core from "./components/re_components/Core";
-import Demo from "./components/re_components/Demo";
-import Footer from "./components/re_components/Footer";
+import {Routes, Route} from 'react-router-dom'
+import Home from "./components/pages/Home";
+import About from "./components/pages/About";
+import Contact from "./components/pages/Contact";
 import Hero from "./components/re_components/Hero";
-import Navbar from "./components/re_components/Navbar";
+import NewHero from "./components/re_components/NewHero";
+import Approach from "./components/re_components/Approach";
 import Org from "./components/re_components/Org";
-import What from "./components/re_components/What";
 import Nav from "./components/re_components/Nav";
-import Text from "./components/re_components/Text";
-import { TypeAnimation } from "./components/re_components/TypeAnimation";
+import Footer from "./components/re_components/Footer";
 
 function App() {
   return (
     <div>
       <Nav />
-      {/* <TypeAnimation/> */}
-      <Hero />
-      {/* donee  */}
-      {/* <Text /> */}
-      <About /> 
-      {/* done */}
-      <Core />
-      {/* almost */}
-      <What /> 
-      {/* done */}
-      <Approach /> 
-      <Org />
+      <NewHero />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer />
     </div>
   );

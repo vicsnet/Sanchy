@@ -1,30 +1,50 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { Element } from "react-scroll";
 import Logo from "../assets/SanchyLogo.png";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
 import Button from "./Button";
 
 function Nav() {
-    const [nav, setNav] = useState(false);
-    
-    const handleClick =()=> setNav(!nav)
+  const [nav, setNav] = useState(false);
+
+  const handleClick = () => setNav(!nav);
+  const Element = Link;
+
+  
 
   return (
     <div className=" justify-between fixed z-30 items-center  mx-auto h-20 bg-[#FFFFFF] w-[100%]">
       <div className="flex justify-between mx-auto px-4 w-[90%] h-20">
         <div>
-          <img
-            src={Logo}
-            alt="/"
-            className=" w-[40%] h-auto p-4 cursor-pointer"
-          />
+          <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+            <img
+              src={Logo}
+              alt="/"
+              className=" w-[40%] h-auto p-4 cursor-pointer"
+            />
+          </Link>
         </div>
 
         <ul className=" hidden  cursor-pointer md:flex">
-          <li className="p-8 hover:text-[#001EDC]">Home</li>
-          <li className="p-8 hover:text-[#001EDC]">About Us</li>
+          <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+            <li className="p-8 hover:text-[#001EDC]">Home</li>
+          </Link>
+          <Link
+            to="about"
+            spy={true}
+            smooth={true}
+            offset={50}
+            duration={500}
+          >
+            <li className="p-8 hover:text-[#001EDC]">About Us</li>
+          </Link>
+
           <li className="p-4">
             {/* <Button  {`$ {value}`} /> */}
-            <Button>{`$ {learn}`}</Button>
+            <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
+              <Button>{`$ {learn}`}</Button>
+            </Link>
           </li>
         </ul>
 

@@ -7,23 +7,29 @@ function What() {
   return (
     <div className="w-[100%] h-auto  pb-36">
       <div className="w-[90%] mx-auto">
-        <h1 className="text-[24px]w-[80%] lg:text-[60px] h-[58px] leading-8 font-black  lg:text-left lg:w-[45%] lg:ml-[55%]   ">
+        <h1 className="text-[24px]w-[80%] md:text-[60px] h-[58px] leading-8 font-black  lg:text-left lg:w-[45%] xl:ml-[55%]   ">
           {" "}
           What we do
         </h1>
-        <p className="w-[100%] text-[18px] h-auto leading-8 font-normal lg:w-[45%] lg:ml-[55%]">
+        <p className="w-[100%] text-[18px] h-auto leading-8 font-normal xl:w-[45%] xl:ml-[55%] ">
           We follow a consultative approach to understand your requirements
           first and then we put forward a suitable set of solutions accordingly.
         </p>
-        <div className="w-[50%] md:relative ">
+
+        <div className="w-[50%] md:relative  l">
           <img
             src={Inspire11}
             alt="/"
-            className="hidden  lg:block lg:pt-[12%]  lg:ml-[7%] w-[48%]xl:w-[48%] h-auto  xl:ml-[5%] xl:relative xl:pt-[2%]"
+            className="hidden  md:block lg:pt-[12%]   w-[48%]xl:w-[48%] h-auto  xl:ml-[5%] xl:relative xl:pt-[2%] "
           />
         </div>
-        <div className="lg:hidden">
-          <img src={Group8} alt="" className="w-[90%] h-auto mx-auto mt-[27px] mb-14" />
+
+        <div className="lg:hidden md:hidden">
+          <img
+            src={Group8}
+            alt=""
+            className="w-[90%] h-auto mx-auto mt-[27px] mb-14"
+          />
         </div>
 
         <div>
@@ -62,10 +68,10 @@ function What() {
             <img
               src={people11}
               alt="/"
-              className="w-[48%] h-auto lg:ml-[46%] lg:mt-[-8%]  xl:ml-[46%] hidden  lg:block "
+              className="w-[48%] h-auto lg:ml-[55%] xl:mt-[-8%]  xl:ml-[46%] hidden  lg:block lg:w-[45%] "
             />
-            <div className="w-[100%] lg:w-[45%]  ">
-              <div className="ml-[0%] xl:mt-[-80%] lg:mt-[-100%]">
+            <div className="w-[100%] lg:w-[50%]  ">
+              <div className="ml-[0%] xl:mt-[-80%] lg:mt-[-110%]">
                 <h3 className="text-[#001EDC] text-[24px] w-[100%] h-auto leading-8 font-normal mb-4 mt-4">
                   {" "}
                   Add to the culture
