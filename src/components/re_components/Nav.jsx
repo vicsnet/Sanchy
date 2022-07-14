@@ -13,7 +13,7 @@ function Nav() {
 
   return (
     <div className=" justify-between fixed z-30 items-center  mx-auto h-20 bg-[#FFFFFF] w-[100%]">
-      <div className="flex justify-between mx-auto px-4 w-[90%] h-20">
+      <div className="flex justify-between mx-auto  w-[90%] h-20">
         <div>
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
             <img
@@ -24,12 +24,14 @@ function Nav() {
           </Link>
         </div>
 
-        <ul className=" hidden  cursor-pointer md:flex">
+        <ul className=" hidden  cursor-pointer lg:flex ">
           <Link to="/" onClick={() => window.scrollTo(0, 0)}>
-            <li className="p-8 hover:text-[#001EDC]">Home</li>
+            <li className="p-8 hover:text-[#001EDC] text-[16px]">Home</li>
           </Link>
           <Link to="/" onClick={() => window.scrollTo(800, 800)}>
-            <li className="p-8 hover:text-[#001EDC]">About Us</li>
+            <li className="p-8 hover:text-[#001EDC] text-[16px] ">
+              About Us
+            </li>
           </Link>
 
           <li className="p-4">
@@ -40,7 +42,7 @@ function Nav() {
           </li>
         </ul>
 
-        <div className="md:hidden" onClick={handleClick}>
+        <div className="lg:hidden" onClick={handleClick}>
           {!nav ? (
             <AiOutlineMenu size={20} className=" text-[#001EDC] mt-[90%]" />
           ) : (
@@ -52,12 +54,21 @@ function Nav() {
         className={
           !nav
             ? "hidden"
-            : "absolute cursor-pointer w-[30%] bg-[#F5F5F5] left-[70%] "
+            : "absolute cursor-pointer w-[45%] bg-[#F5F5F5] sm:left-[70%] sm:w-[30%] left-[60%]"
         }
       >
-        <li className="p-8 text-[#001EDC] menu-bt menu-bb">Home</li>
-        <li className="p-8 text-[#001EDC] ">About Us</li>
-        <li className="p-8 text-[#001EDC] menu-bb">Contact Us</li>
+        <Link to="/" onClick={() => window.scrollTo(0, 0)}>
+          <li className="p-8 text-[#001EDC] menu-bt menu-bb text-[16px]">
+            Home
+          </li>
+        </Link>
+
+        <Link to="/" onClick={() => window.scrollTo(800, 800)}>
+          <li className="p-8 text-[#001EDC] text-[16px] ">About Us</li>
+        </Link>
+        <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
+          <li className="p-8 text-[#001EDC] menu-bb text-[16px]">Contact Us</li>
+        </Link>
       </ul>
     </div>
   );
