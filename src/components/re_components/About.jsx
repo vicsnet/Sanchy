@@ -1,9 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import About21 from "../assets/21.png";
 import Button from "./Button";
 function About() {
   return (
-    <div className="w-[100%] h-[1081px]  " id="aboutme">
+    <div className="w-[100%] h-auto  " id="aboutme">
       <div className="w-[90%] md:flex lg:space-between mx-auto mt-[10%] mb-auto ">
         <div className=" w-[50%] h-auto">
           <img
@@ -48,9 +49,11 @@ function About() {
               of customers and partners
             </p>
             <div className="mt-[66px] lg:mt-[88px] ">
-              <button className="w-[154px] h-[60px] bg-[#001EDC] text-[#FFFFFF] text-[13px] text-center rounded hover:bg-[#F6F9FF] hover:text-[#001EDC]">
-                learn more
-              </button>
+              <Link to="/about" onClick={() => window.scrollTo(0, 0)}>
+                <button className="w-[154px] h-[60px] bg-[#001EDC] text-[#FFFFFF] text-[13px] text-center rounded hover:bg-[#F6F9FF] hover:text-[#001EDC]">
+                  learn more
+                </button>
+              </Link>
             </div>
           </div>
         </div>

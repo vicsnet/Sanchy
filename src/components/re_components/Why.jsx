@@ -31,7 +31,7 @@ const Why = () => {
               <img
                 src={Line}
                 alt="/"
-                className=" ml-4 w-[1px] h-[300px] sm:h-[200px] lg:h-[150px] lg:ml-8 "
+                className=" ml-4 w-[1px] h-[240px] sm:h-[230px] lg:h-[150px] lg:ml-8 "
               />
             </div>
 
@@ -65,7 +65,7 @@ const Why = () => {
               <img
                 src={Line}
                 alt=""
-                className=" ml-4 w-[1px] h-[400px] sm:h-[240px] lg:h-[300px] "
+                className=" ml-4 w-[1px] h-[260px] sm:h-[280px] lg:h-[300px] "
               />
             </div>
             <div className="bg-[#FFFFFF] mb-16 lg:mt-28 lg:ml-4 ">
@@ -99,7 +99,7 @@ const Why = () => {
               <img
                 src={Line}
                 alt=""
-                className=" ml-4 w-[1px] h-[300px] sm:h-[200px]"
+                className=" ml-4 w-[1px] h-[200px] sm:h-[200px]"
               />
             </div>
             <div className="bg-[#FFFFFF] mb-16 pb-16 lg:pb-9 lg:mt-28 lg:mr-4">
@@ -116,7 +116,7 @@ const Why = () => {
             </div>
           </div>
 
-          <div className="flex lg:max-h-[400px] lg:mt-[300px]">
+          <div className="flex lg:max-h-[400px] lg:mt-[300px] h-auto">
             <div className="lg:ml-[-37px]">
               <img
                 src={Line}
@@ -131,7 +131,7 @@ const Why = () => {
               <img
                 src={Line}
                 alt=""
-                className=" ml-4 w-[1px] h-[300px] sm:h-[200px] "
+                className=" ml-4 w-[1px] h-[200px] sm:h-[200px] "
               />
             </div>
             <div className="bg-[#FFFFFF] mb-16 pb-16 lg:pb-9 lg:mt-28 lg:ml-4">
@@ -147,7 +147,7 @@ const Why = () => {
             </div>
           </div>
 
-          <div className="flex lg:flex-row-reverse lg:max-h-[400px] lg:mt-[-40px]">
+          <div className="flex lg:flex-row-reverse lg:max-h-[400px] lg:mt-[-40px] h-auto">
             <div>
               <img
                 src={Line}
@@ -162,7 +162,7 @@ const Why = () => {
               <img
                 src={Line}
                 alt=""
-                className=" ml-4 w-[1px] h-[150px] sm:h-[110px] lg:h-[130px]"
+                className=" ml-4 w-[1px] h-[100px] sm:h-[110px] lg:h-[130px]"
               />
             </div>
 

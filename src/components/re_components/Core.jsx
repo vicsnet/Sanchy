@@ -1,12 +1,13 @@
 import React from "react";
 import Core11 from "../assets/11.png";
+import Circle from "../assets/Circle 7.png";
 
 function Core() {
   return (
     <div className="w-[100%] h-auto mb-20 ">
       <div className="w-[90%] mx-auto ">
         <div>
-          <h1 className=" text-[24px] lg:w-[80%] lg:text-[60px] lg:h-[58px] lg:leading-8 font-black  ">
+          <h1 className=" text-[24px] lg:w-[80%] md:text-[60px] lg:h-[58px] lg:leading-8 font-black sm:mt-[20%] mt-[40%]">
             {" "}
             Core Values
           </h1>
@@ -47,6 +48,9 @@ function Core() {
                 getting things done, but to putting 100% effort and our full
                 attention into every little detail in our work.
               </p>
+            </div>
+            <div className=" sm:hidden absolute">
+              <img src={Circle} alt="" className="w-[60%] ml-[40%] mt-[-80%]"/>
             </div>
           </div>
 

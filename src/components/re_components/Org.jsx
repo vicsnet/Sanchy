@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Rectangle22678 from "../assets/Rectangle22678.png";
+
 import Button from "./Button";
 
 function Org() {
@@ -13,7 +15,7 @@ function Org() {
         />
       </div>
       <div className=" lg:w-[70%] mx-auto  relative">
-        <h2 className=" text-[24px] w-[70%] text-white sm:w-[60%] lg:w-[85%] sm:text-[40px] md:text-[60px] text-center mx-auto font-black h-auto lg:pt-[20%] pt-[20%]">
+        <h2 className=" text-[24px] w-[70%] text-white sm:w-[60%] lg:w-[85%] sm:text-[40px] lg:text-[60px] text-center mx-auto font-black h-auto sm:pt-[20%] pt-[40%]">
           What does your Organization need to solve
         </h2>
         <p className=" org-text w-[90%] text-[16px] leading-7 text-center mx-auto">
@@ -22,7 +24,9 @@ function Org() {
           users move through different software platforms
         </p>
         <div className=" pt-4 sm:mx-[40.4%] lg:pt-14 mx-[30%]">
-          <Button />
+          <Link to="/contact" onClick={() => window.scrollTo(0, 0)}>
+            <Button />
+          </Link>
         </div>
       </div>
     </div>
