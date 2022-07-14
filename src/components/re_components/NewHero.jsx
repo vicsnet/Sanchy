@@ -11,12 +11,12 @@ const NewHero = () => {
         <div className="flex pt-[30%] lg:gap-6">
           <div
             id="carouselExampleSlidesOnly"
-            class="carousel slide relative w-[60%]"
+            class="carousel slide duration-100 relative w-[60%]"
             data-bs-ride="carousel"
           >
             <div class="carousel-inner relative">
-              <div class="carousel-item active relative float-left w-full">
-                <h2 className="text-[28px] font-black w-[112%] mb-8 xl:w-[70%] lg:text-[60px] lg:leading-[90px] lg:mb-4 md:w-[80%] md:text-[40px] sm:text-[32px] sm:w-[100%]">
+              <div class="carousel-item active relative float-left w-full duration-100">
+                <h2 className="text-[28px] font-black w-[112%] mb-8 xl:w-[70%] lg:text-[60px] lg:leading-[70px] lg:mb-4 md:w-[80%] md:text-[40px] sm:text-[32px] sm:w-[100%]">
                   Re-imagine <span className="text-[#001EDC]">innovation</span>{" "}
                   with forward thinking
                   <span> solutions</span>
@@ -27,8 +27,8 @@ const NewHero = () => {
                   various niches of the tech and innovation industry.
                 </p>
               </div>
-              <div class="carousel-item relative float-left w-full">
-                <h2 className="text-[28px] font-black mb-8 lg:w-[70%] lg:text-[60px] lg:leading-[90px] lg:mb-4 md:w-[60%] md:text-[40px] sm:text-[32px] sm:w-[70%]">
+              <div class="carousel-item relative float-left w-full duration-100 ">
+                <h2 className="text-[28px] font-black mb-8 lg:w-[70%] lg:text-[60px] lg:leading-[70px] lg:mb-4 md:w-[60%] md:text-[40px] sm:text-[32px] sm:w-[70%]">
                   {" "}
                   A company that <span className="text-[#001EDC]">
                     creates
@@ -41,8 +41,8 @@ const NewHero = () => {
                   various niches of the tech and innovation industry.
                 </p>
               </div>
-              <div class="carousel-item relative  w-full">
-                <h2 className="text-[28px] font-black w-[112%] mb-8 xl:w-[70%] lg:text-[60px] lg:leading-[90px] lg:mb-4 md:w-[80%] md:text-[40px] sm:text-[32px] sm:w-[100%]">
+              <div class="carousel-item relative  w-full duration-100 ">
+                <h2 className="text-[28px] font-black w-[112%] mb-8 xl:w-[70%] lg:text-[60px] lg:leading-[70px] lg:mb-4 md:w-[80%] md:text-[40px] sm:text-[32px] sm:w-[100%]">
                   What does your organization need{" "}
                   <span className="text-[#001EDC]">soluton</span> for?
                 </h2>

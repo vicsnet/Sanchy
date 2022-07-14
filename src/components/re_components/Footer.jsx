@@ -10,10 +10,10 @@ import insta from "../assets/Group 8291insta.png";
 
 function Footer() {
   return (
-    <div className="  w-[100%]  bg-[#060A23] md:bg-[#010007]  h-auto text-white  flex flex-col">
+    <div className="  w-[100%]  bg-[#060A23] lg:bg-[#010007]  h-auto text-white  flex flex-col">
       <div className="foot-bt-bd">
-        <div className="sm:flex  lg:flex w-[90%] mx-auto gap-6 pt-20 ">
-          <div className="md:w-[60%] md:flex md:gap-x-3 sm:border-r-2 border-[#717070] ">
+        <div className="md:flex  lg:flex w-[90%] mx-auto gap-6 pt-20 ">
+          <div className="lg:w-[50%] lg:flex lg:gap-x-3 md:border-r-2 border-[#717070] ">
             <div className="md:w-[40%] ">
               <img
                 src={Logo2}
@@ -56,9 +56,9 @@ function Footer() {
           </div>
 
           {/* <div className="w-[40%] flex gap-9"> */}
-          <div className="md:w-[40%] md:flex">
+          <div className="lg:w-[50%] lg:flex">
             <div className="w-[70%]">
-              <ul>
+              <ul className="lg:pl-[71px]">
                 <li className="text-sm text-[#E3E3E3] mb-7">About</li>
                 <li className="text-sm foot-col mb-7">Company</li>
                 <li className="text-sm foot-col mb-7">Approach</li>
