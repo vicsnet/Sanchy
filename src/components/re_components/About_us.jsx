@@ -5,7 +5,7 @@ import elipse from "../assets/elipse.png";
 
 const About_us = () => {
   return (
-    <div className="w-[100%] pb-10">
+    <div className="w-[100%] pb-10 pt-8">
       <div className="w-[90%] mx-auto">
         <div className=" flex center">
           <div>
@@ -15,13 +15,13 @@ const About_us = () => {
               className="hidden sm:block w-[60%] h-auto mx-auto py-auto"
             />
           </div>
-          <h1 className="text-[24px] md:text-[60px] font-black text-center w-[100%]">
+          <h1 className="text-[24px] md:text-[60px] font-black text-center w-[100%] text-[#000735]">
             About Us
           </h1>
         </div>
         <div className="flex flex-col-reverse md:flex-col">
           <div>
-            <p className="text-[18px] text-center leading-8 text-[#80828E] mt-4 w-[100%]">
+            <p className="text-[18px] text-center leading-8 text-[#242424] mt-4 w-[100%]">
               Sanchy Technology is a modern-day digital company, We champion the
               innovative development of products and that thrives in providing
               information technology solutions for its customers, small and
@@ -33,7 +33,7 @@ const About_us = () => {
               over years of experience not only in information technology but;
               also in business processes across a range of industry sectors.
             </p>
-            <p className="text-[18px] text-center leading-8 text-[#80828E] mt-4 w-[100%]">
+            <p className="text-[18px] text-center leading-8 text-[#242424] mt-4 w-[100%]">
               Established as a technology-driven company, we pride ourselves on
               providing comprehensive arrays of solutions comprising digital and
               virtual card payment platforms across any e-commerce website as a
@@ -44,7 +44,7 @@ const About_us = () => {
               experiences including, but not limited to, marketing, recruitment,
               communication, and network management services.
             </p>
-            <p className="text-[18px] text-center leading-8 text-[#80828E] mt-4 w-[100%]">
+            <p className="text-[18px] text-center leading-8 text-[#242424] mt-4 w-[100%]">
               At Sanchy Kreations, we embrace the power of change to create
               long-lasting value in every direction for our clients, people, and
               communities and we strive to continuously equip ourselves with the

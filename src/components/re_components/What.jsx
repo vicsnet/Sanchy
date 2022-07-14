@@ -7,7 +7,7 @@ function What() {
   return (
     <div className="w-[100%] h-auto  pb-36">
       <div className="w-[90%] mx-auto">
-        <h1 className="text-[24px] w-[80%] md:text-[60px] h-[58px] leading-8 font-black  lg:text-left lg:w-[45%] xl:ml-[55%]   ">
+        <h1 className="  text-[#000735] text-[24px] w-[80%] md:text-[60px] h-[58px] leading-8 font-black  lg:text-left lg:w-[45%] xl:ml-[55%]   ">
           {" "}
           What we do
         </h1>

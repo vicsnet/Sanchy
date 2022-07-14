@@ -14,7 +14,7 @@ function About() {
           />
         </div>
         <div className="md:w-[50%] ">
-          <h1 className=" text-[24px] w-[100%] md:text-[60px] h-[58px] leading-8 font-black  ">
+          <h1 className=" text-[24px] w-[100%] md:text-[60px] h-[58px] leading-8 font-black text-[#000735] ">
             {" "}
             About Us
           </h1>

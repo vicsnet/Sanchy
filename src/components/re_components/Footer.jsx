@@ -13,7 +13,7 @@ function Footer() {
     <div className="  w-[100%]  bg-[#060A23] lg:bg-[#010007]  h-auto text-white  flex flex-col">
       <div className="foot-bt-bd">
         <div className="md:flex  lg:flex w-[90%] mx-auto gap-6 pt-20 ">
-          <div className="lg:w-[50%] lg:flex lg:gap-x-3 md:border-r-2 border-[#717070] ">
+          <div className="lg:w-[50%] lg:flex lg:gap-x-3 md:border-r-[1px] border-[#717070] ">
             <div className="md:w-[40%] ">
               <img
                 src={Logo2}

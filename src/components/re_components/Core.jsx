@@ -7,7 +7,7 @@ function Core() {
     <div className="w-[100%] h-auto mb-20 ">
       <div className="w-[90%] mx-auto ">
         <div>
-          <h1 className=" text-[24px] lg:w-[80%] md:text-[60px] lg:h-[58px] lg:leading-8 font-black sm:mt-[20%] mt-[40%]">
+          <h1 className=" text-[#000735] text-[24px] lg:w-[80%] md:text-[60px] lg:h-[58px] lg:leading-8 font-black sm:mt-[20%] mt-[40%]">
             {" "}
             Core Values
           </h1>
@@ -50,7 +50,7 @@ function Core() {
               </p>
             </div>
             <div className=" sm:hidden absolute">
-              <img src={Circle} alt="" className="w-[60%] ml-[40%] mt-[-80%]"/>
+              <img src={Circle} alt="" className="w-[60%] ml-[40%] mt-[-80%]" />
             </div>
           </div>
 

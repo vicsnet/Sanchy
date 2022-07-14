@@ -5,10 +5,10 @@ const Why = () => {
   return (
     <div className="w-[100%] h-auto bg-[#F6F9FF] mt-20 ">
       <div className="w-[90%] mx-auto lg:relative lg:z-10 ">
-        <h1 className=" pt-20 text-[24px] leading-6 text-[#060A23] font-black">
+        <h1 className=" pt-20 text-[24px] leading-6  font-black text-[#000735]">
           Why Sanchy Tech
         </h1>
-        <p className="mt-8 text-[#80828E] text-[18px] md:text-60px md:w-[60%] md:mt-4 ">
+        <p className="mt-8 text-[#242424] text-[18px] md:text-60px md:w-[60%] md:mt-4 ">
           Seamless integration with your existing technology stack Quick and
           easy integration with provider, facility, inventory, scheduling, and
           API databases. We take security seriously and we partner with leading
@@ -31,7 +31,7 @@ const Why = () => {
               <img
                 src={Line}
                 alt="/"
-                className=" ml-4 w-[1px] h-[240px] sm:h-[230px] lg:h-[150px] lg:ml-8 "
+                className=" ml-4 w-[1px] h-[318px] sm:h-[230px] lg:h-[150px] lg:ml-8 "
               />
             </div>
 
@@ -40,7 +40,7 @@ const Why = () => {
                 <h2 className="text-[24px] leading-8 w-[60%] text-[#001EDC] pt-16 pb-4 lg:w-[100%] lg:pt-9">
                   Challenge the ordinary
                 </h2>
-                <p className="text-[18px] leading-8 text-[#80828E]">
+                <p className="text-[18px] leading-8 text-[#242424]">
                   We are creative people that dare to do things differently. We
                   think critically about tech, the industries we work with, and
                   our society, and look for uncharted paths to have a positive
@@ -65,7 +65,7 @@ const Why = () => {
               <img
                 src={Line}
                 alt=""
-                className=" ml-4 w-[1px] h-[260px] sm:h-[280px] lg:h-[300px] "
+                className=" ml-4 w-[1px] h-[380px] sm:h-[280px] lg:h-[300px] "
               />
             </div>
             <div className="bg-[#FFFFFF] mb-16 lg:mt-28 lg:ml-4 ">
@@ -73,7 +73,7 @@ const Why = () => {
                 <h2 className="text-[24px] leading-8  text-[#001EDC] pt-16 pb-4 lg:pt-9">
                   Grow together
                 </h2>
-                <p className="text-[18px] leading-8 text-[#80828E] ">
+                <p className="text-[18px] leading-8 text-[#242424] ">
                   Opportunities and challenges are both shared here, and when
                   those arise, we tapon each other's strengths to succeed
                   through collaboration. We learn from each other and help each
@@ -99,7 +99,7 @@ const Why = () => {
               <img
                 src={Line}
                 alt=""
-                className=" ml-4 w-[1px] h-[200px] sm:h-[200px]"
+                className=" ml-4 w-[1px] h-[288px] sm:h-[210px]"
               />
             </div>
             <div className="bg-[#FFFFFF] mb-16 pb-16 lg:pb-9 lg:mt-28 lg:mr-4">
@@ -107,7 +107,7 @@ const Why = () => {
                 <h2 className="text-[24px] leading-8  text-[#001EDC] pt-16 pb-4 lg:pt-9">
                   Lift eachother’s voice
                 </h2>
-                <p className="text-[18px] leading-8 text-[#80828E]">
+                <p className="text-[18px] leading-8 text-[#242424]">
                   We’ve adopted communication routines that encourage the team
                   to share their feedback on projects, internal processes and
                   operations, and anything else.
@@ -139,7 +139,7 @@ const Why = () => {
                 <h2 className="text-[24px] leading-8 text-[#001EDC] pt-16 pb-4 lg:pt-9">
                   Great collaboration
                 </h2>
-                <p className="text-[18px] leading-8 text-[#80828E]">
+                <p className="text-[18px] leading-8 text-[#242424]">
                   We do some of our best work through collaboration. We tap on
                   each other’s strengths and help each other grow every day.
                 </p>
@@ -171,7 +171,7 @@ const Why = () => {
                 <h2 className="text-[24px] leading-8 text-[#001EDC] pt-16 pb-4 lg:pt-9">
                   Enjoy the ride
                 </h2>
-                <p className="text-[18px] leading-8 text-[#80828E]">
+                <p className="text-[18px] leading-8 text-[#242424]">
                   We love to have fun with what we do! The office is where we
                   get to share and follow our passion for tech, design, and for
                   making great new products happen.

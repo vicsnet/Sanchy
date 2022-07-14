@@ -2,9 +2,9 @@ import React from 'react'
 
 const Message = () => {
   return (
-    <div className="w-[100%] bg-[#F5F5F5] mb-16 md:mb-32">
+    <div className="w-[100%] bg-[#F5F5F5] pb-16 md:pb-32">
       <div className="w-[100%] mx-auto bg-[#FFFFFF] sm:w-[70%] sm:shadow-xl">
-        <h1 className="text-center text-[24px] pt-16 pb-8 font-black sm:text-left md:text-[60px] sm:w-[90%] sm:mx-auto">
+        <h1 className="text-center text-[24px] pt-16 pb-8 font-black sm:text-left md:text-[60px] sm:w-[90%] sm:mx-auto text-[#000735]">
           Send a message
         </h1>
         <div className="w-[90%] mx-auto">
