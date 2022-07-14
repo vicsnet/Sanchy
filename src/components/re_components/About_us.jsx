@@ -21,7 +21,7 @@ const About_us = () => {
         </div>
         <div className="flex flex-col-reverse md:flex-col">
           <div>
-            <p className="text-[18px] text-center leading-8 text-[#989AA4] mt-4 w-[100%]">
+            <p className="text-[18px] text-center leading-8 text-[#80828E] mt-4 w-[100%]">
               Sanchy Technology is a modern-day digital company, We champion the
               innovative development of products and that thrives in providing
               information technology solutions for its customers, small and
@@ -33,7 +33,7 @@ const About_us = () => {
               over years of experience not only in information technology but;
               also in business processes across a range of industry sectors.
             </p>
-            <p className="text-[18px] text-center leading-8 text-[#989AA4] mt-4 w-[100%]">
+            <p className="text-[18px] text-center leading-8 text-[#80828E] mt-4 w-[100%]">
               Established as a technology-driven company, we pride ourselves on
               providing comprehensive arrays of solutions comprising digital and
               virtual card payment platforms across any e-commerce website as a
@@ -44,7 +44,7 @@ const About_us = () => {
               experiences including, but not limited to, marketing, recruitment,
               communication, and network management services.
             </p>
-            <p className="text-[18px] text-center leading-8 text-[#989AA4] mt-4 w-[100%]">
+            <p className="text-[18px] text-center leading-8 text-[#80828E] mt-4 w-[100%]">
               At Sanchy Kreations, we embrace the power of change to create
               long-lasting value in every direction for our clients, people, and
               communities and we strive to continuously equip ourselves with the
@@ -53,8 +53,12 @@ const About_us = () => {
               effectively in this ever-changing world.
             </p>
           </div>
-          <div className='lg: mt-28 mb-16'>
-            <img src={elipse} alt="" className="absolute hidden md:block ml-[87%] w-[8%] h-auto" />
+          <div className="lg: mt-28 mb-16">
+            <img
+              src={elipse}
+              alt=""
+              className="absolute hidden md:block ml-[87%] w-[8%] h-auto"
+            />
             <img src={Group} alt="" className="w-[100%] h-auto mx-auto" />
           </div>
         </div>
