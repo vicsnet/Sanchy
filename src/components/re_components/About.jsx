@@ -3,17 +3,17 @@ import About21 from "../assets/21.png";
 import Button from "./Button";
 function About() {
   return (
-    <div className="w-[100%] h-[1081px]  " id="aboutme" >
-      <div className="w-[90%] lg:flex lg:space-between mx-auto  mt-[10%] mb-auto ">
+    <div className="w-[100%] h-[1081px]  " id="aboutme">
+      <div className="w-[90%] md:flex lg:space-between mx-auto mt-[10%] mb-auto ">
         <div className=" w-[50%] h-auto">
           <img
             src={About21}
             alt=""
-            className=" hidden lg:block w-[80%] h-auto mx-auto mt-[30%]  "
+            className=" hidden md:block  h-auto mx-auto lg:mt-[30%] md:mt-[68%] "
           />
         </div>
-        <div className="lg:w-[50%]">
-          <h1 className=" text-[24px] w-[100%] lg:text-[60px] h-[58px] leading-8 font-black  ">
+        <div className="md:w-[50%] ">
+          <h1 className=" text-[24px] w-[100%] md:text-[60px] h-[58px] leading-8 font-black  ">
             {" "}
             About Us
           </h1>
