@@ -7,18 +7,17 @@ import What from '../re_components/What';
 import Approach from '../re_components/Approach';
 import Org from '../re_components/Org';
 import Footer from '../re_components/Footer';
+import NewHero from '../re_components/NewHero';
 
 const Home = () => {
   return (
     <div>
-    
-      
+      <NewHero />
       <About />
       <Core />
       <What />
       <Approach />
       <Org />
-     
     </div>
   );
 }

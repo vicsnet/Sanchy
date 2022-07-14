@@ -15,7 +15,6 @@ function App() {
   return (
     <div>
       <Nav />
-      <NewHero />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
