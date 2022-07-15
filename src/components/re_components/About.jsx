@@ -23,7 +23,7 @@ function About() {
               Company
             </h3>
             <p className="  lg:w-[80%] text-[18px]  h-auto leading-8 font-normal">
-              At Sanchy Kreations, we embrace the power of change to create
+              At Sanchy Technology, we embrace the power of change to create
               long-lasting value in every direction for our clients, people, and
               communities and we strive to continuously equip ourselves with the
               latest digital and technical know-how paving the way for our
