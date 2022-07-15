@@ -23,7 +23,7 @@ const Why = () => {
                 alt="/"
                 className="h-[180px] ml-4 w-[1px] sm:h-32 lg:ml-8"
               />
-              <p className="border-2 w-[32px] h-[32px] rounded-[50%] text-center py-auto mr-[5px] lg:ml-4 pt-1 text-[#001EDC] ">
+              <p className="border-2 w-[32px] h-[32px] rounded-[50%] text-center py-auto mr-[5px] lg:ml-4 pt-1 border-[#001EDC] ">
                 <span className="text-[16px] text-[#001EDC] text-center my-auto h-auto ">
                   01
                 </span>
@@ -57,7 +57,7 @@ const Why = () => {
                 alt="/"
                 className="h-[180px] w-[1px] ml-4 sm:h-32 "
               />
-              <p className="border-2 w-[32px] h-[32px] text-[#001EDC] rounded-[50%] text-center py-auto mr-[5px] pt-1">
+              <p className="border-2 w-[32px] h-[32px] border-[#001EDC] rounded-[50%] text-center py-auto mr-[5px] pt-1">
                 <span className="text-[16px] text-[#001EDC] text-center my-auto">
                   02
                 </span>
@@ -91,7 +91,7 @@ const Why = () => {
                 alt="/"
                 className="h-[180px] w-[1px] ml-4 sm:h-32 "
               />
-              <p className="border-2 w-[32px] h-[32px] rounded-[50%] text-[#001EDC] text-center py-auto mr-[5px] pt-1">
+              <p className="border-2 w-[32px] h-[32px] rounded-[50%] border-[#001EDC] text-center py-auto mr-[5px] pt-1">
                 <span className="text-[16px] text-[#001EDC] text-center my-auto">
                   03
                 </span>
@@ -123,7 +123,7 @@ const Why = () => {
                 alt="/"
                 className="h-[180px] w-[1px] ml-4 sm:h-32"
               />
-              <p className="border-2 w-[32px] h-[32px]  text-[#001EDC] rounded-[50%] text-center py-auto mr-[5px] pt-1">
+              <p className="border-2 w-[32px] h-[32px]  border-[#001EDC] rounded-[50%] text-center py-auto mr-[5px] pt-1">
                 <span className="text-[16px] text-[#001EDC] text-center my-auto">
                   04
                 </span>
@@ -154,7 +154,7 @@ const Why = () => {
                 alt="/"
                 className="h-[180px] w-[1px] ml-4 sm:h-32 "
               />
-              <p className="border-2 w-[32px] h-[32px] text-[#001EDC] rounded-[50%] text-center py-auto mr-[5px] pt-1">
+              <p className="border-2 w-[32px] h-[32px] border-[#001EDC] rounded-[50%] text-center py-auto mr-[5px] pt-1">
                 <span className="text-[16px] text-[#001EDC] text-center my-auto">
                   05
                 </span>
