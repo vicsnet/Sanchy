@@ -6,7 +6,7 @@ import Button from "./Button";
 
 function Org() {
   return (
-    <div className="h-screen ">
+    <div className="h-screen h-cover">
       <div className=" bg-[#000000] absolute w-[100%] ">
         <img
           src={Rectangle22678}
@@ -15,7 +15,7 @@ function Org() {
         />
       </div>
       <div className=" lg:w-[70%] mx-auto  relative">
-        <h2 className=" text-[24px] w-[70%] text-white sm:w-[60%] lg:w-[85%] sm:text-[40px] lg:text-[60px] text-center mx-auto font-black h-auto sm:pt-[20%] pt-[40%]">
+        <h2 className=" text-[24px] w-[70%] text-white sm:w-[60%] lg:w-[85%] sm:text-[40px] lg:text-[60px] text-center mx-auto font-black h-auto sm:pt-[20%] xl:pt-[20%] pt-[40%] lg:[10%]">
           What does your Organization need to solve
         </h2>
         <p className=" org-text w-[90%] text-[16px] leading-7 text-center mx-auto">

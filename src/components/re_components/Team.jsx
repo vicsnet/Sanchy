@@ -22,7 +22,7 @@ const Team = () => {
               className="  lg:w-[100%] h-auto mx-auto sm:w-[70%] w-[90%] md:w-[80%]"
             />
             <div className=" opacity-0 hover:opacity-100 cursor-pointer h-28 mx-auto bg-white  rounded py-9 w-[70%] mt-[-20%] lg:w-[70%] md:mt-[-12%] lg:mt-[-35%] xl:mt-[-28%] sm:mt-[-16%] md:w-[60%] sm:w-[60%] relative">
-              <ul className="flex   gap-4 text-center mx-auto md:w-[30%] sm:w-[40%] w-[50%]">
+              <ul className="flex   gap-4 text-center mx-auto md:w-[30%] sm:w-[40%] w-[50%] lg:w-[50%]">
                 <li>
                   <FaFacebook className="text-[32px] text-[#001EDC]" />
                 </li>
@@ -51,7 +51,7 @@ const Team = () => {
               className="  lg:w-[100%] h-auto mx-auto sm:w-[70%] w-[90%] md:w-[80%]"
             />
             <div className=" opacity-0 hover:opacity-100 cursor-pointer h-28 mx-auto bg-white  rounded py-9 w-[70%] mt-[-20%] lg:w-[70%] md:mt-[-12%] lg:mt-[-35%] xl:mt-[-28%] sm:mt-[-16%] md:w-[60%] sm:w-[60%] relative">
-              <ul className="flex   gap-4 text-center mx-auto md:w-[30%] sm:w-[40%] w-[50%]">
+              <ul className="flex   gap-4 text-center mx-auto md:w-[30%] sm:w-[40%] w-[50%] lg:w-[50%]">
                 <li>
                   <FaFacebook className="text-[32px] text-[#001EDC]" />
                 </li>
@@ -80,7 +80,7 @@ const Team = () => {
               className="  lg:w-[100%] h-auto mx-auto sm:w-[70%] w-[90%] md:w-[80%]"
             />
             <div className=" opacity-0 hover:opacity-100 cursor-pointer h-28 mx-auto bg-white  rounded py-9 w-[70%] mt-[-20%] lg:w-[70%] md:mt-[-12%] lg:mt-[-35%] xl:mt-[-28%] sm:mt-[-16%] md:w-[60%] sm:w-[60%] relative">
-              <ul className="flex   gap-4 text-center mx-auto md:w-[30%] sm:w-[40%] w-[50%]">
+              <ul className="flex   gap-4 text-center mx-auto md:w-[30%] sm:w-[40%] w-[50%] lg:w-[50%]">
                 <li>
                   <FaFacebook className="text-[32px] text-[#001EDC]" />
                 </li>

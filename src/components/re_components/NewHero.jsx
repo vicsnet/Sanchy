@@ -16,7 +16,7 @@ const NewHero = () => {
           >
             <div class="carousel-inner relative">
               <div class="carousel-item active relative float-left w-full duration-100">
-                <h2 className="text-[28px] font-black w-[112%] mb-8 xl:w-[90%] lg:text-[60px] lg:leading-[70px] lg:mb-4 md:w-[90%] md:text-[40px] sm:text-[32px] sm:w-[100%]">
+                <h2 className="text-[28px] text-[#000735] font-black w-[112%] mb-8 xl:w-[90%] lg:text-[60px] lg:leading-[70px] lg:mb-4 md:w-[90%] md:text-[40px] sm:text-[32px] sm:w-[100%]">
                   Re-imagine <span className="text-[#001EDC]">innovation</span>{" "}
                   with forward thinking
                   <span> solutions</span>
@@ -28,7 +28,7 @@ const NewHero = () => {
                 </p>
               </div>
               <div class="carousel-item relative float-left w-full duration-100 ">
-                <h2 className="text-[28px] font-black mb-8 lg:w-[100%] lg:text-[60px] lg:leading-[70px] lg:mb-4 md:w-[80%] md:text-[40px] sm:text-[32px] sm:w-[90%] xl:w-[90%] ">
+                <h2 className="text-[28px] text-[#000735] font-black mb-8 lg:w-[100%] lg:text-[60px] lg:leading-[70px] lg:mb-4 md:w-[80%] md:text-[40px] sm:text-[32px] sm:w-[90%] xl:w-[90%] ">
                   {" "}
                   A company that creates
                   <span className="text-[#001EDC]">
@@ -43,7 +43,7 @@ const NewHero = () => {
                 </p>
               </div>
               <div class="carousel-item relative  w-full duration-100 ">
-                <h2 className="text-[28px] font-black w-[112%] mb-8 xl:w-[70%] lg:text-[60px] lg:leading-[70px] lg:mb-4 md:w-[80%] md:text-[40px] sm:text-[32px] sm:w-[100%]">
+                <h2 className="text-[28px] text-[#000735] font-black w-[112%] mb-8 xl:w-[70%] lg:text-[60px] lg:leading-[70px] lg:mb-4 md:w-[80%] md:text-[40px] sm:text-[32px] sm:w-[100%]">
                   We aim to <span className="text-[#001EDC]">raise</span> the
                   <span className="text-[#001EDC]"> innovation</span> Game
                 </h2>
