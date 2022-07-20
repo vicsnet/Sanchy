@@ -22,35 +22,35 @@ const About_us = () => {
         <div className="flex flex-col-reverse md:flex-col">
           <div>
             <p className="text-[18px] text-center leading-8 text-[#242424] mt-4 w-[100%]">
-              Sanchy Technology is a modern-day digital company, We champion the
-              innovative development of products and that thrives in providing
-              information technology solutions for its customers, small and
-              medium-sized businesses. Our mission from the very first day has
-              been to cultivate professional relationships with our clients to
-              provide effective and reliable information technology solutions
-              for their immediate and diverse needs. The team at Sanchy
-              Kreations is equipped with a highly developed skill set cultivated
-              over years of experience not only in information technology but;
-              also in business processes across a range of industry sectors.
+              We employ modern-day technology to solve both complex problems
+              using a very simple approach, As an emerging tech company, we pave
+              new grounds for innovations, developing products and services that
+              thrive in providing an array of strategic solutions for our
+              product users and intending consumers, using data analysis and
+              research gateways, we make sure to facilitate true and easy user
+              bill payment journey, logistics problems, everyday online
+              experiences and so much more.
             </p>
             <p className="text-[18px] text-center leading-8 text-[#242424] mt-4 w-[100%]">
-              Established as a technology-driven company, we pride ourselves on
-              providing comprehensive arrays of solutions comprising digital and
-              virtual card payment platforms across any e-commerce website as a
-              stress-free routine, making relevant memories last longer for
-              generations through wall portraits and also making information
-              available for B2B purposes and so much more. Our team consistently
-              delivers first-hand solutions at various arrays of digital
-              experiences including, but not limited to, marketing, recruitment,
-              communication, and network management services.
+              Our mission from day one has been to cultivate an understanding of
+              the everyday problems faced by the and not limited to the growing
+              fintech community, we then carefully develop products tailored to
+              provide effective and reliable tech-centric solutions for the
+              final user’s immediate and diverse needs. The team at Sanchy
+              Technology is vast with years of solution-driven approach to
+              problems coupled with a highly developed skill set cultivated over
+              years of experience not only in research and information
+              technology but; also, in business integration processes and
+              research across a range of industrial sectors.
             </p>
             <p className="text-[18px] text-center leading-8 text-[#242424] mt-4 w-[100%]">
-              At Sanchy Kreations, we embrace the power of change to create
-              long-lasting value in every direction for our clients, people, and
-              communities and we strive to continuously equip ourselves with the
-              latest digital and technical know-how paving the way for our
-              clients and partners to navigate the technology landscape most
-              effectively in this ever-changing world.
+              Established as a core tech-driven company, we currently pride
+              ourselves in providing comprehensive arrays of solutions
+              comprising digital and virtual card payment platforms across any
+              e-commerce website as a stress-free routine, and also making
+              payment integration purposes less strenuous and much more reliable
+              and seamless than ever. Our team consistently delivers first-hand
+              solutions at various arrays of digital experiences at all levels.
             </p>
           </div>
           <div className="lg: mt-28 mb-16">
