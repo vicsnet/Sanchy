@@ -65,7 +65,7 @@ const Message = () => {
               placeholder="Enter full name"
               onChange={(e) => setFname(e.target.value)}
             />
-            <p className="text-[16px] pb-2 pt-[24px]">Company name</p>
+            <p className="text-[16px] pb-2 pt-[24px]">Phone number</p>
             <input
               className="h-14 w-[100%] bg-[#F6F4FF] border-none rounded pl-2 text-[#999999] text-[16px] focus:outline-none"
               type="text"
