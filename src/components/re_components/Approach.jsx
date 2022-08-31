@@ -2,7 +2,7 @@ import React from "react";
 import Circle from "../assets/Circle.png";
 function Approach() {
   return (
-    <div className="w-[100%] bg-[#F6F9FF] h-auto pb-56 pt-32 approach-bg">
+    <div className="w-[100%] bg-[#F6F9FF] h-auto pb-56 pt-32 approach-bg 2xl:mt-[150px]">
       <div className="w-[90%] mx-auto">
         <h1 className=" text-[24px] w-[100%] md:text-[60px] h-[58px] text-[#000735] leading-8 font-black">
           Our Approach
