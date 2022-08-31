@@ -8,7 +8,7 @@ function Approach() {
           Our Approach
         </h1>
         <p className="lg:w-[60%] lg:mt-16 text-[18px] leading-8 md:pb-16 ">
-          At Sanchy Kreations, we embrace the power of change to create
+          At Sanchy Technology, we embrace the power of change to create
           long-lasting value in every direction for the individuals and business
           platforms across the tech communities.
         </p>

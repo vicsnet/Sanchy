@@ -8,6 +8,7 @@ import Approach from '../re_components/Approach';
 import Org from '../re_components/Org';
 import Footer from '../re_components/Footer';
 import NewHero from '../re_components/NewHero';
+import WhatWeDo from '../re_components/WhatWeDo';
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <About />
       <Core />
       <What />
+      {/* <WhatWeDo /> */}
       <Approach />
       <Org />
     </div>
